@@ -1,15 +1,15 @@
-import { Divider, Layout, Menu} from 'antd';
+import { Divider, Layout, Menu } from 'antd';
 import React from 'react';
 import { LikeFilled, CompassFilled, PlayCircleFilled, HomeFilled, GroupOutlined, HistoryOutlined, ClockCircleOutlined, VideoCameraFilled } from '@ant-design/icons';
 
-const {Sider} = Layout;
+const { Sider } = Layout;
 
 const { SubMenu } = Menu;
 
 
 export default function SideBar() {
-    return (
-        <Sider
+  return (
+    <Sider
       breakpoint="lg"
       collapsedWidth="0"
       onBreakpoint={broken => {
@@ -29,7 +29,7 @@ export default function SideBar() {
         <Menu.Item key="3" icon={<PlayCircleFilled />}>
           Subscriptions
         </Menu.Item>
-        <Divider style={{backgroundColor: '#ccc', padding: 0, margin: 0, lineHeight: '1px'}}></Divider>
+        <Divider style={{ backgroundColor: '#ccc', padding: 0, margin: 0, lineHeight: '1px' }}></Divider>
         <Menu.Item key="4" icon={<GroupOutlined />}>
           Library
         </Menu.Item>
@@ -47,7 +47,7 @@ export default function SideBar() {
         </Menu.Item>
       </Menu>
     </Sider>
-    )
+  )
 }
 
 

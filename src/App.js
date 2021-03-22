@@ -1,12 +1,14 @@
 import MainContainer from './container/MainContainer';
+import store from './Store/store';
 import 'antd/dist/antd.css';
+import { Provider } from 'react-redux';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <Provider store={store}>
       <MainContainer></MainContainer>
-    </div>
+    </Provider>
   );
 }
 
