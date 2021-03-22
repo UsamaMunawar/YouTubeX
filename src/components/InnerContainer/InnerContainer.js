@@ -39,7 +39,7 @@ export default function InnerContainer() {
                 </Space>
             </Row>
             <Row gutter={[24, 24]}>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} >
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -47,7 +47,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} >
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -55,7 +55,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -63,7 +63,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -71,7 +71,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -79,7 +79,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
@@ -87,7 +87,7 @@ export default function InnerContainer() {
                         <Meta title="Europe Street beat" description="www.instagram.com" />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col xs={24} sm={12} md={12} lg={6} xl={6}>
                     <Card
                         hoverable
                         cover={<img alt="example" height="140px" src="https://wallpapercave.com/wp/wp5952062.png" />}
